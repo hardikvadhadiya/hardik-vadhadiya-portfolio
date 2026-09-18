@@ -109,8 +109,8 @@ export const certifications = [
 
 export const skills = {
   shopify: [
+    'Shopify Theme Development',
     'Shopify Liquid',
-    'Shopify Themes',
     'Online Store 2.0',
     'JSON Templates',
     'Metafields & Metaobjects',
@@ -121,17 +121,19 @@ export const skills = {
   frontend: [
     'HTML5',
     'CSS3',
-    'SCSS',
-    'Basic JavaScript & jQuery',
+    'SASS & SCSS',
+    'JavaScript & jQuery',
     'Responsive Design',
+    'Mobile-First Approach',
     'Web Animations',
     'Tailwind CSS',
+    'Bootstrap Framework',
   ],
   performance: [
     'Core Web Vitals',
     'Lighthouse',
     'PageSpeed (Up to 80% Faster)',
-    'SEO',
+    'SEO Optimization',
     'Accessibility (WCAG)',
     'Mobile First Architecture',
   ],
@@ -139,9 +141,9 @@ export const skills = {
     'Figma',
     'Adobe XD',
     'Photoshop',
-    'Git',
-    'GitHub',
-    'VS Code',
+    'Adobe Illustrator',
+    'Git & GitHub',
+    'VS Code / Visual Studio',
     'Wix Studio',
   ],
   ai: [
@@ -153,12 +155,12 @@ export const skills = {
     'Antigravity',
   ],
   soft: [
-    'Team Leadership',
-    'Developer Mentoring',
-    'Client Communication',
+    'Team Leadership & Mentoring',
+    'Teamwork & Communication',
     'Problem Solving',
+    'Quick Learner & Adaptive',
+    'Client Relations',
     'Attention to Detail',
-    'Technical Leadership',
   ],
 }
 
