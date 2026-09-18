@@ -1,6 +1,6 @@
 // ---------------------------------------------------------------------------
 // All portfolio content lives here.
-// Portfolio data for Hardik Vadhadiya — Senior Shopify & Frontend Developer
+// Portfolio data for Hardik Vadhadiya — Senior Web Designer & Shopify Theme Developer
 // ---------------------------------------------------------------------------
 
 export const profile = {
@@ -9,7 +9,7 @@ export const profile = {
   lastName: 'Vadhadiya',
   role: 'Senior Web Designer & Shopify Theme Developer',
   tagline:
-    'Senior Frontend & Shopify Developer with 7+ years of experience building high-performance, conversion-focused eCommerce solutions. Delivered 30–40+ custom stores end-to-end and improved page speeds by up to 80%.',
+    'Senior Web Designer & Shopify Theme Developer with 7+ years of experience building high-performance, conversion-focused eCommerce solutions. Delivered 30–40+ custom stores end-to-end and improved page speeds by up to 80%.',
   location: 'Surat, Gujarat, India',
   email: 'hardikvadhadiya54@gmail.com',
   phone: '+91 91577 12141',
@@ -67,7 +67,7 @@ export const about = {
   ],
   details: [
     { label: 'Name', value: 'Hardik Vadhadiya' },
-    { label: 'Role', value: 'Senior Web Designer & Shopify Developer' },
+    { label: 'Role', value: 'Senior Web Designer & Shopify Theme Developer' },
     { label: 'Experience', value: '7+ Years (2018 — Present)' },
     { label: 'Based in', value: 'Surat, Gujarat, India' },
     { label: 'Phone', value: '+91 91577 12141' },
@@ -242,5 +242,5 @@ export const projects = [
 
 export const contact = {
   heading: "Let's Build Something Exceptional.",
-  sub: "Have an eCommerce store to build, a Shopify theme to overhaul, or looking for a Senior Frontend & Shopify Developer? My inbox is open.",
+  sub: "Have an eCommerce store to build, a Shopify theme to overhaul, or looking for a Senior Web Designer & Shopify Theme Developer? My inbox is open.",
 }

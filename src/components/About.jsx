@@ -38,7 +38,7 @@ export default function About() {
             </div>
           </div>
 
-          {/* bottom left badge - Senior Shopify Developer */}
+          {/* bottom left badge - Senior Shopify Theme Developer */}
           <div className="absolute -bottom-2 -left-2 card px-3.5 py-2.5 shadow-lg animate-float [animation-delay:1.2s] badge-hover-glow cursor-pointer">
             <div className="flex items-center gap-2.5">
               <span className="text-mint-400"><BracesIcon width={18} height={18} /></span>
