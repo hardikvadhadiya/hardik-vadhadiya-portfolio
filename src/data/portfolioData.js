@@ -9,11 +9,11 @@ export const profile = {
   lastName: 'Vadhadiya',
   role: 'Senior Web Designer & Shopify Theme Developer',
   tagline:
-    'Senior Frontend & Shopify Developer with 7+ years of experience building high-performance, conversion-focused eCommerce solutions. Delivered 30–40+ custom stores end-to-end and improved page speeds by up to 60%.',
+    'Senior Frontend & Shopify Developer with 7+ years of experience building high-performance, conversion-focused eCommerce solutions. Delivered 30–40+ custom stores end-to-end and improved page speeds by up to 80%.',
   location: 'Surat, Gujarat, India',
   email: 'hardikvadhadiya54@gmail.com',
   phone: '+91 91577 12141',
-  linkedin: 'https://linkedin.com/in/hardik-vadhadiya',
+  linkedin: 'https://www.linkedin.com/in/hardik-vadhadiya-79b059164/',
   github: 'https://github.com/hardikvadhadiya',
   resumeUrl: '/Hardik-Vadhadiya-Resume.pdf',
   avatar: '/hardik.jpg',
@@ -24,7 +24,7 @@ export const profile = {
 export const stats = [
   { label: 'Years Experience', value: '7+' },
   { label: 'Shopify Stores Built', value: '30–40+' },
-  { label: 'Page Speed Boost', value: 'Up to 60%' },
+  { label: 'Page Speed Boost', value: 'Up to 80%' },
   { label: 'Annual Projects Shipped', value: '6–8' },
 ]
 
@@ -62,7 +62,7 @@ export const stack = [
 export const about = {
   heading: 'About Me',
   paragraphs: [
-    "I'm a Senior Web Designer & Shopify Theme Developer with 7+ years of experience building high-performance, conversion-focused eCommerce solutions. I have delivered 30–40+ custom Shopify stores end-to-end, improved page load speeds by up to 60%, and consistently shipped 6–8 projects per year for international clients.",
+    "I'm a Senior Web Designer & Shopify Theme Developer with 7+ years of experience building high-performance, conversion-focused eCommerce solutions. I have delivered 30–40+ custom Shopify stores end-to-end, improved page load speeds by up to 80%, and consistently shipped 6–8 projects per year for international clients.",
     "I possess deep expertise in Shopify Liquid, Online Store 2.0, custom theme architecture, and Shopify app UI/UX. Known for pixel-perfect execution, performance optimization, and technical leadership — including mentoring developers, translating Figma designs into responsive UI, and leveraging modern AI workflows (Copilot, Cursor, Claude) to maximize productivity and code quality.",
   ],
   details: [
@@ -130,7 +130,7 @@ export const skills = {
   performance: [
     'Core Web Vitals',
     'Lighthouse',
-    'PageSpeed (Up to 60% Faster)',
+    'PageSpeed (Up to 80% Faster)',
     'SEO',
     'Accessibility (WCAG)',
     'Mobile First Architecture',
