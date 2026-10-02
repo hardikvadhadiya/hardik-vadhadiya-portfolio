@@ -15,7 +15,7 @@ export const profile = {
   phone: '+91 95861 29445',
   linkedin: 'https://www.linkedin.com/in/vadhadiya-deep',
   github: 'https://github.com/deepvadhadiya',
-  resumeUrl: '#',
+  resumeUrl: '/Deep-Updated-Resume.pdf',
   avatar: '/profile.jpg',
   creation: '/hero.jpg',
   available: true,
