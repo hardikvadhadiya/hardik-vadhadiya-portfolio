@@ -44,7 +44,9 @@ export default function Hero() {
             </a>
             <a
               href={profile.resumeUrl}
-              download
+              download="Deep-Vadhadiya-Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-ink-border/14 text-paper-100 px-6 py-3 text-sm hover:border-mint-500/50 hover:text-mint-400 transition-colors"
             >
               Download CV <DownloadIcon width={16} height={16} />

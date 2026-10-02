@@ -55,7 +55,7 @@ export default function Projects() {
                     rel="noreferrer"
                     className="inline-flex items-center gap-2 font-mono text-xs text-ink-950 font-semibold bg-mint-500 hover:bg-mint-400 rounded-full px-5 py-2.5 shadow-glow transition-all duration-300 group-hover:scale-105"
                   >
-                    Visit Store <ArrowUpRightIcon width={14} height={14} />
+                    View Platform <ArrowUpRightIcon width={14} height={14} />
                   </a>
                 )}
               </div>
