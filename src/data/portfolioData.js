@@ -31,7 +31,11 @@ export const stats = [
 export const socials = [
   { label: 'LinkedIn', href: profile.linkedin, icon: 'linkedin' },
   { label: 'GitHub', href: profile.github, icon: 'github' },
-  { label: 'Email', href: `mailto:${profile.email}`, icon: 'mail' },
+  {
+    label: 'Email',
+    href: `https://mail.google.com/mail/?view=cm&to=${profile.email}&su=Opportunity%20for%20Deep%20Vadhadiya&body=Hi%20Deep%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20connect%20regarding%20a%20potential%20opportunity.%0A%0ALooking%20forward%20to%20hearing%20from%20you!%0A%0ABest%20regards%2C`,
+    icon: 'mail',
+  },
 ]
 
 export const navLinks = [
@@ -205,6 +209,7 @@ export const projects = [
     tags: ['Node.js', 'NestJS', 'MongoDB', 'GraphQL', 'Multi-Tenant CRM'],
     type: 'Enterprise Business Management',
     featured: true,
+    live: 'https://yashworld.hivestaff.in/',
   },
   {
     id: 'construction-platform',
@@ -215,6 +220,7 @@ export const projects = [
     tags: ['Node.js', 'NestJS', 'MongoDB', 'GraphQL', 'BOQ & Materials'],
     type: 'Construction ERP Platform',
     featured: true,
+    live: 'https://construction.hivestaff.in/',
   },
   {
     id: 'property-management',
@@ -225,6 +231,7 @@ export const projects = [
     tags: ['Node.js', 'Express.js', 'PostgreSQL', 'Sequelize', 'REST APIs'],
     type: 'Real Estate Microservices',
     featured: true,
+    live: 'https://property.hivestaff.in/',
   },
   {
     id: 'laserbliss',
@@ -235,6 +242,7 @@ export const projects = [
     tags: ['Node.js', 'NestJS', 'PostgreSQL', 'Database APIs', 'Healthcare ERP'],
     type: 'Clinic Management System',
     featured: true,
+    live: 'https://admin.laserbliss.in/',
   },
 ]
 
