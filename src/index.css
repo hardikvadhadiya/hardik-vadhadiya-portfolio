@@ -107,7 +107,7 @@ body {
 }
 .container-px {
   /* stylelint-disable-next-line at-rule-no-unknown */
-  @apply px-6 sm:px-10 lg:px-20 max-w-7xl mx-auto;
+  @apply w-full px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24 max-w-[1680px] mx-auto;
 }
 .card {
   /* stylelint-disable-next-line at-rule-no-unknown */

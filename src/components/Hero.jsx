@@ -125,21 +125,21 @@ export default function Hero() {
             </div>
 
             {/* floating telemetry badge - Top Right */}
-            <div className="absolute -top-3 -right-2 sm:right-2 flex items-center gap-2 card px-3.5 py-2 z-20 animate-float [animation-delay:0.5s] border-cyan-500/30">
+            <div className="absolute -top-3 right-0 sm:right-2 flex items-center gap-2 card px-3 sm:px-3.5 py-1.5 sm:py-2 z-20 animate-float [animation-delay:0.5s] border-cyan-500/30">
               <span className="relative flex w-2 h-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400" />
               </span>
-              <span className="font-mono text-[11px] text-slate-200 font-medium">99.9% Uptime Architecture</span>
+              <span className="font-mono text-[10px] sm:text-[11px] text-slate-200 font-medium">99.9% Uptime SLA</span>
             </div>
 
             {/* floating code badge - Top Left */}
-            <span className="absolute top-4 left-0 card w-11 h-11 flex items-center justify-center font-mono text-xs text-cyan-400 animate-float [animation-delay:0.3s] border-cyan-500/30 shadow-[0_0_15px_rgba(6,182,212,0.2)]">
+            <span className="absolute top-4 left-0 card w-10 h-10 sm:w-11 sm:h-11 flex items-center justify-center font-mono text-xs text-cyan-400 animate-float [animation-delay:0.3s] border-cyan-500/30 shadow-[0_0_15px_rgba(6,182,212,0.2)]">
               {'</>'}
             </span>
 
-            {/* Live Gateway Terminal Card - Bottom Left */}
-            <div className="absolute -bottom-10 -left-4 sm:-left-8 w-68 sm:w-76 card p-4 animate-float [animation-delay:1.2s] z-20 border-cyan-500/30 shadow-2xl shadow-black/80 bg-slate-900/90 backdrop-blur-xl">
+            {/* Live Gateway Terminal Card - Bottom */}
+            <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:-left-8 w-[92%] sm:w-76 card p-3.5 sm:p-4 animate-float [animation-delay:1.2s] z-20 border-cyan-500/30 shadow-2xl shadow-black/80 bg-slate-900/90 backdrop-blur-xl">
               <div className="flex items-center justify-between pb-2 mb-2.5 border-b border-slate-800">
                 <div className="flex items-center gap-1.5">
                   <span className="w-2.5 h-2.5 rounded-full bg-[#EF4444]" />

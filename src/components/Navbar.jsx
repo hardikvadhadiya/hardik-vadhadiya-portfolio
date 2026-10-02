@@ -38,10 +38,10 @@ export default function Navbar() {
           </div>
 
           <div className="flex flex-col leading-tight min-w-0">
-            <span className="font-display text-sm font-bold text-paper-100 group-hover:text-cyan-400 transition-colors tracking-wide flex items-center gap-2">
+            <span className="font-display text-xs sm:text-sm font-bold text-paper-100 group-hover:text-cyan-400 transition-colors tracking-wide flex items-center gap-2">
               DEEP VADHADIYA
             </span>
-            <span className="font-mono text-[9px] tracking-[0.22em] text-cyan-400/90 uppercase font-medium">
+            <span className="font-mono text-[8px] sm:text-[9px] tracking-[0.18em] sm:tracking-[0.22em] text-cyan-400/90 uppercase font-medium">
               Backend Systems Architect
             </span>
           </div>

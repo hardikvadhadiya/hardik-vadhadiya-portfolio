@@ -31,14 +31,14 @@ export default function About() {
           </div>
 
           {/* Top Right Floating Badge - 2+ Years */}
-          <div className="absolute -top-4 -right-4 card px-4 py-3 shadow-xl shadow-cyan-950/40 border-cyan-500/30 animate-float [animation-delay:0.3s] badge-hover-glow cursor-pointer bg-slate-900/90 backdrop-blur-xl">
-            <div className="flex items-center gap-3">
-              <span className="font-display font-bold text-lg bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">2+</span>
+          <div className="absolute -top-3 -right-2 sm:-right-4 card px-3 sm:px-4 py-2 sm:py-3 shadow-xl shadow-cyan-950/40 border-cyan-500/30 animate-float [animation-delay:0.3s] badge-hover-glow cursor-pointer bg-slate-900/90 backdrop-blur-xl">
+            <div className="flex items-center gap-2.5 sm:gap-3">
+              <span className="font-display font-bold text-base sm:text-lg bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">2+</span>
               <div className="text-left">
                 <p className="font-mono text-[9px] text-slate-400 uppercase tracking-wider leading-none">
                   Years of
                 </p>
-                <p className="font-mono text-[10px] text-cyan-400 font-bold uppercase tracking-wider leading-none mt-1">
+                <p className="font-mono text-[9px] sm:text-[10px] text-cyan-400 font-bold uppercase tracking-wider leading-none mt-1">
                   Production Exp
                 </p>
               </div>
@@ -46,14 +46,14 @@ export default function About() {
           </div>
 
           {/* Bottom Left Floating Badge - Systems Architect */}
-          <div className="absolute -bottom-4 -left-4 card px-4 py-3 shadow-xl shadow-indigo-950/40 border-indigo-500/30 animate-float [animation-delay:1s] badge-hover-glow cursor-pointer bg-slate-900/90 backdrop-blur-xl">
-            <div className="flex items-center gap-3">
-              <span className="text-cyan-400"><BracesIcon width={20} height={20} /></span>
+          <div className="absolute -bottom-3 -left-2 sm:-left-4 card px-3 sm:px-4 py-2 sm:py-3 shadow-xl shadow-indigo-950/40 border-indigo-500/30 animate-float [animation-delay:1s] badge-hover-glow cursor-pointer bg-slate-900/90 backdrop-blur-xl">
+            <div className="flex items-center gap-2.5 sm:gap-3">
+              <span className="text-cyan-400"><BracesIcon width={18} height={18} /></span>
               <div className="text-left">
                 <p className="font-mono text-[9px] text-slate-400 uppercase tracking-wider leading-none">
                   Specialist
                 </p>
-                <p className="font-mono text-[10px] text-indigo-400 font-bold uppercase tracking-wider leading-none mt-1">
+                <p className="font-mono text-[9px] sm:text-[10px] text-indigo-400 font-bold uppercase tracking-wider leading-none mt-1">
                   Backend &amp; DBs
                 </p>
               </div>
