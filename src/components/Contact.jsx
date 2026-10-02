@@ -5,7 +5,7 @@ import useReveal from '../hooks/useReveal'
 
 /**
  * EMAIL SETUP:
- * Form submission automatically sends to: hardikvadhadiya54@gmail.com
+ * Form submission automatically sends to: deepvadhadiya@gmail.com
  */
 
 export default function Contact() {
@@ -22,7 +22,7 @@ export default function Contact() {
 
   try {
     const response = await fetch(
-      'https://formsubmit.co/ajax/hardikvadhadiya54@gmail.com',
+      `https://formsubmit.co/ajax/${profile.email}`,
       {
         method: 'POST',
         headers: {

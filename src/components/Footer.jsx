@@ -63,7 +63,7 @@ export default function Footer() {
         aria-hidden="true"
         className="pointer-events-none select-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-display font-bold text-[18vw] leading-none text-paper-100/[0.03] whitespace-nowrap"
       >
-        HARDIK
+        {profile.firstName.toUpperCase()}
       </div>
     </footer>
   )

@@ -14,7 +14,7 @@ export const profile = {
   email: 'deepvadhadiya@gmail.com',
   phone: '+91 95861 29445',
   linkedin: 'https://www.linkedin.com/in/vadhadiya-deep',
-  github: 'https://github.com/hardikvadhadiya',
+  github: 'https://github.com/deepvadhadiya',
   resumeUrl: '#',
   avatar: '/profile.jpg',
   creation: '/hero.jpg',
