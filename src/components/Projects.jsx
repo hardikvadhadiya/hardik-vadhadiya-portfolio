@@ -8,13 +8,13 @@ export default function Projects() {
   return (
     <section id="projects" className="container-px py-16 sm:py-20">
       <div ref={ref} className="reveal">
-        <p className="eyebrow mb-4">Client Work</p>
+        <p className="eyebrow mb-4">Production Work</p>
         <h2 className="section-heading">
-          Featured <span className="text-mint-400">Stores</span>
+          Featured <span className="text-mint-400">Projects</span>
         </h2>
         <p className="section-sub">
-          Production Shopify stores, Online Store 2.0 theme architectures, and high-performance
-          eCommerce builds delivered for international clients.
+          Production backend platforms, multi-tenant architectures, and database-driven business
+          workflows engineered with Node.js, NestJS, and modern databases.
         </p>
 
         <div className="mt-16 divide-y divide-ink-border border-y border-ink-border">
@@ -32,7 +32,7 @@ export default function Projects() {
                   </h3>
                   {project.featured && (
                     <span className="font-mono text-[10px] uppercase tracking-wide bg-mint-500/10 text-mint-400 px-2.5 py-1 rounded-full border border-mint-500/20">
-                      Featured Build
+                      Production System
                     </span>
                   )}
                 </div>

@@ -3,34 +3,34 @@ import useReveal from '../hooks/useReveal'
 
 const GROUPS = [
   {
-    key: 'shopify',
-    label: 'Shopify Development',
-    comment: '// Liquid, Online Store 2.0 & Theme Architecture',
+    key: 'backend',
+    label: 'Backend Development',
+    comment: '// Node.js, NestJS, Express.js, TypeScript & JS',
   },
   {
-    key: 'frontend',
-    label: 'Frontend Technologies',
-    comment: '// Responsive UI, Modern SCSS, HTML5 & Scripts',
+    key: 'api',
+    label: 'API Engineering & Auth',
+    comment: '// GraphQL, REST APIs, RBAC & Role Permissions',
   },
   {
-    key: 'performance',
-    label: 'Performance & Optimization',
-    comment: '// Core Web Vitals, Lighthouse & PageSpeed',
+    key: 'databases',
+    label: 'Database Systems',
+    comment: '// MongoDB, PostgreSQL, Mongoose & Sequelize',
   },
   {
-    key: 'tools',
-    label: 'Design & Tools',
-    comment: '// Figma, Adobe XD, Git & Workflows',
+    key: 'systems',
+    label: 'Business Systems & ERP',
+    comment: '// CRM, Construction, Property, BOQ & Workflows',
+  },
+  {
+    key: 'frontendTools',
+    label: 'Frontend & Tools',
+    comment: '// React.js, HTML5, CSS3, Git, GitHub & GitLab',
   },
   {
     key: 'ai',
-    label: 'AI-Powered Tooling',
-    comment: '// Cursor, Copilot, Claude & Productivity Boosters',
-  },
-  {
-    key: 'soft',
-    label: 'Leadership & Collaboration',
-    comment: '// Mentoring, Client Relations & Code Reviews',
+    label: 'AI-Powered Engineering',
+    comment: '// Cursor, Copilot, Claude, ChatGPT, Antigravity',
   },
 ]
 
@@ -46,8 +46,8 @@ export default function Skills() {
             Technical <span className="text-mint-400">Skillset</span>
           </h2>
           <p className="section-sub">
-            Built across 7+ years of architecting conversion-first Shopify stores, leading theme
-            customizations, and optimizing performance for global eCommerce brands.
+            Engineered across 2+ years of developing production backend applications, designing
+            scalable database architectures, and deploying reliable business workflows.
           </p>
 
           <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

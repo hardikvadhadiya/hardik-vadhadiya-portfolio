@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 
 const ROLES = [
-  'Senior Web Designer & Shopify Theme Developer',
-  'Shopify Theme Developer',
-  'Senior Web Designer',
-  'eCommerce & Frontend Specialist',
+  'Backend Software Engineer',
+  'Node.js & NestJS Developer',
+  'GraphQL & REST API Architect',
+  'Database & Microservices Specialist',
 ]
 
 export default function TypedRole() {

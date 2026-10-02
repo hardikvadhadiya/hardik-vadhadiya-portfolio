@@ -30,7 +30,7 @@ export default function Footer() {
             {profile.role}
           </p>
           <p className="text-paper-500 text-sm italic mt-2">
-            "Building high-performance, conversion-focused eCommerce experiences."
+            "Building robust, scalable, high-performance backend systems."
           </p>
         </div>
 
@@ -55,7 +55,7 @@ export default function Footer() {
       </div>
 
       <p className="relative container-px pb-8 text-center font-mono text-xs text-paper-500">
-        © {year} {profile.name}. Senior Web Designer &amp; Shopify Theme Developer.
+        © {year} {profile.name}. Backend Software Engineer.
       </p>
 
       {/* big background name watermark */}

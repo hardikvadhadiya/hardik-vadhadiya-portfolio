@@ -20,7 +20,7 @@ export default function Hero() {
           <p className="eyebrow mb-6">Welcome to my portfolio</p>
 
           <h1 className="font-display font-semibold text-[2.6rem] leading-[1.05] sm:text-6xl md:text-[4.2rem] text-paper-100 tracking-tight">
-            Hardik
+            Deep
             <br />
             <span className="bg-gradient-to-r from-mint-400 to-mint-600 bg-clip-text text-transparent">
               Vadhadiya
@@ -40,7 +40,7 @@ export default function Hero() {
               href="#projects"
               className="inline-flex items-center gap-2 rounded-full bg-mint-500 text-ink-950 font-semibold px-6 py-3 text-sm shadow-glow hover:bg-mint-400 transition-colors"
             >
-              Explore Featured Stores <ArrowRightIcon width={16} height={16} />
+              Explore Featured Projects <ArrowRightIcon width={16} height={16} />
             </a>
             <a
               href={profile.resumeUrl}
@@ -121,19 +121,19 @@ export default function Hero() {
                 <span className="w-2.5 h-2.5 rounded-full bg-[#F2564C]" />
                 <span className="w-2.5 h-2.5 rounded-full bg-amber-400" />
                 <span className="w-2.5 h-2.5 rounded-full bg-mint-500" />
-                <span className="ml-2 font-mono text-[10px] text-paper-500">profile.liquid</span>
+                <span className="ml-2 font-mono text-[10px] text-paper-500">engineer.ts</span>
               </div>
               <p className="font-mono text-xs leading-relaxed text-paper-300">
-                <span className="text-amber-400">const</span> developer = {'{'}
+                <span className="text-amber-400">const</span> engineer = {'{'}
                 <br />
                 &nbsp;&nbsp;name:{' '}
-                <span className="text-mint-400">"Hardik Vadhadiya"</span>,
+                <span className="text-mint-400">"Deep Vadhadiya"</span>,
                 <br />
                 &nbsp;&nbsp;role:{' '}
-                <span className="text-mint-400">"Senior Web Designer &amp; Shopify Theme Developer"</span>,
+                <span className="text-mint-400">"Backend Software Engineer"</span>,
                 <br />
                 &nbsp;&nbsp;experience:{' '}
-                <span className="text-mint-400">"7+ Years"</span>,
+                <span className="text-mint-400">"2+ Years"</span>,
                 <br />
                 &nbsp;&nbsp;status:{' '}
                 <span className="text-mint-400">"Available for Work"</span>

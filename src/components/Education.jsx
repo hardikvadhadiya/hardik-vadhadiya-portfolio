@@ -13,7 +13,7 @@ export default function Education() {
         </h2>
         <p className="section-sub text-center mx-auto">
           A foundation in Computer Applications combined with continuous professional mastery in
-          Shopify ecosystem architecture and web performance.
+          backend engineering, scalable database systems, and modern API architectures.
         </p>
 
         {/* education degree cards */}

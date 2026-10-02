@@ -23,10 +23,10 @@ export default function About() {
             />
           </div>
 
-          {/* top right badge - 7+ Years of Experience */}
+          {/* top right badge - 2+ Years of Experience */}
           <div className="absolute -top-3 -right-3 card px-3.5 py-2.5 shadow-lg animate-float [animation-delay:0.4s] badge-hover-glow cursor-pointer">
             <div className="flex items-center gap-2.5">
-              <span className="text-mint-400 font-display font-bold text-base">7+</span>
+              <span className="text-mint-400 font-display font-bold text-base">2+</span>
               <div className="text-left">
                 <p className="font-mono text-[9px] text-paper-500 uppercase tracking-wide leading-none">
                   Years of
@@ -38,16 +38,16 @@ export default function About() {
             </div>
           </div>
 
-          {/* bottom left badge - Senior Shopify Theme Developer */}
+          {/* bottom left badge - Backend Software Engineer */}
           <div className="absolute -bottom-2 -left-2 card px-3.5 py-2.5 shadow-lg animate-float [animation-delay:1.2s] badge-hover-glow cursor-pointer">
             <div className="flex items-center gap-2.5">
               <span className="text-mint-400"><BracesIcon width={18} height={18} /></span>
               <div className="text-left">
                 <p className="font-mono text-[9px] text-paper-500 uppercase tracking-wide leading-none">
-                  Senior
+                  Backend
                 </p>
                 <p className="font-mono text-[9px] text-mint-400 font-semibold uppercase tracking-wide leading-none mt-0.5">
-                  Shopify Dev
+                  Engineer
                 </p>
               </div>
             </div>
