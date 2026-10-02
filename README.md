@@ -43,6 +43,6 @@ Local URL: `http://localhost:5173/`
 ## 📞 Contact
 
 - **Email**: [deepvadhadiya@gmail.com](mailto:deepvadhadiya@gmail.com)
-- **LinkedIn**: [linkedin.com/in/vadhadiya-deep](https://www.linkedin.com/in/vadhadiya-deep)
+- **LinkedIn**: [linkedin.com/in/deep-vadhadiya-89929324b](https://www.linkedin.com/in/deep-vadhadiya-89929324b/)
 - **Phone**: +91 95861 29445
 - **Location**: Surat, Gujarat, India

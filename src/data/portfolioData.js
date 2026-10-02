@@ -13,7 +13,7 @@ export const profile = {
   location: 'Surat, Gujarat, India',
   email: 'deepvadhadiya@gmail.com',
   phone: '+91 95861 29445',
-  linkedin: 'https://www.linkedin.com/in/vadhadiya-deep',
+  linkedin: 'https://www.linkedin.com/in/deep-vadhadiya-89929324b/',
   github: 'https://github.com/deepvadhadiya',
   resumeUrl: '/Deep-Updated-Resume.pdf',
   avatar: '/profile.jpg',
