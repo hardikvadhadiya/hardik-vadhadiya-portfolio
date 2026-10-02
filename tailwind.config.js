@@ -34,11 +34,11 @@ export default {
           400: themed('--color-mint-400'),
           500: themed('--color-mint-500'),
           600: themed('--color-mint-600'),
-          glow: 'rgba(47,211,174,0.35)',
+          glow: 'rgba(6, 182, 212, 0.35)',
         },
         amber: {
-          400: '#F2B84B',
-          500: '#E6A72E',
+          400: '#F59E0B',
+          500: '#D97706',
         },
       },
       fontFamily: {
@@ -53,8 +53,9 @@ export default {
         'grid-sm': '22px 22px',
       },
       boxShadow: {
-        glow: '0 0 0 1px rgba(47,211,174,0.25), 0 20px 60px -20px rgba(47,211,174,0.35)',
-        card: '0 16px 32px -22px rgba(0,0,0,0.45)',
+        glow: '0 0 0 1px rgba(6, 182, 212, 0.3), 0 20px 60px -20px rgba(6, 182, 212, 0.4)',
+        'glow-indigo': '0 0 0 1px rgba(99, 102, 241, 0.3), 0 20px 60px -20px rgba(99, 102, 241, 0.4)',
+        card: '0 16px 32px -22px rgba(0,0,0,0.55)',
       },
       keyframes: {
         blink: {

@@ -5,37 +5,35 @@
 /* stylelint-enable at-rule-no-unknown */
 
 /* ---------------------------------------------------------------------
-   Theme tokens. Values are "R G B" triplets (no rgb()) so Tailwind can
-   apply opacity modifiers, e.g. bg-ink-800/70.
-   Dark is the default (no class needed). Adding `light` to <html>
-   (see ThemeToggle.jsx) switches every one of these at once.
+   Classy & Professional Backend Architect Theme Tokens
+   Midnight Obsidian Dark Mode with Electric Cyan & Cobalt Accents
 ------------------------------------------------------------------------ */
 :root {
-  --color-bg: 11 15 20; /* page background */
-  --color-bg-alt: 15 20 27; /* alternating section background */
-  --color-surface: 18 24 33; /* cards */
-  --color-surface-2: 26 34 48; /* hovered / nested surfaces */
-  --color-border: 231 236 242; /* mixed at low opacity for hairlines */
-  --color-text: 245 247 250; /* headings / primary text */
-  --color-text-dim: 199 208 220; /* secondary text */
-  --color-text-muted: 147 161 180; /* labels, captions */
-  --color-mint-400: 76 227 194;
-  --color-mint-500: 47 211 174;
-  --color-mint-600: 31 174 142;
+  --color-bg: 7 10 16;          /* deep midnight obsidian */
+  --color-bg-alt: 11 16 26;      /* alternating section surface */
+  --color-surface: 14 21 34;     /* luxury glass card surface */
+  --color-surface-2: 20 30 48;   /* hovered / nested elements */
+  --color-border: 148 163 184;   /* clean subtle border base */
+  --color-text: 248 250 252;     /* crisp high-contrast white */
+  --color-text-dim: 203 213 225;  /* secondary readable slate */
+  --color-text-muted: 148 163 184;/* labels and captions */
+  --color-mint-400: 6 182 212;   /* Electric Cyan #06B6D4 */
+  --color-mint-500: 14 165 233;  /* Vivid Sky Blue #0EA5E9 */
+  --color-mint-600: 37 99 235;   /* Royal Cobalt Blue #2563EB */
 }
 
 html.light {
-  --color-bg: 240 250 248;
-  --color-bg-alt: 235 248 246;
+  --color-bg: 248 250 252;
+  --color-bg-alt: 241 245 249;
   --color-surface: 255 255 255;
-  --color-surface-2: 230 245 242;
-  --color-border: 117 142 138;
-  --color-text: 24 38 39;
-  --color-text-dim: 45 66 67;
-  --color-text-muted: 76 96 96;
-  --color-mint-400: 20 125 104;
-  --color-mint-500: 22 155 127;
-  --color-mint-600: 16 128 103;
+  --color-surface-2: 226 232 240;
+  --color-border: 148 163 184;
+  --color-text: 15 23 42;
+  --color-text-dim: 51 65 85;
+  --color-text-muted: 100 116 139;
+  --color-mint-400: 8 145 178;
+  --color-mint-500: 2 132 199;
+  --color-mint-600: 3 105 161;
 }
 
 html {
@@ -45,19 +43,20 @@ html {
 
 body {
   overflow-x: clip;
-
   /* stylelint-disable-next-line at-rule-no-unknown */
   @apply bg-ink-900 text-paper-100 font-body antialiased transition-colors duration-300;
+  background-image: 
+    radial-gradient(at 100% 0%, rgba(6, 182, 212, 0.08) 0px, transparent 50%),
+    radial-gradient(at 0% 40%, rgba(37, 99, 235, 0.06) 0px, transparent 50%);
 }
 
-
 ::selection {
-  background: rgba(47, 211, 174, 0.3);
-  color: rgb(var(--color-text));
+  background: rgba(6, 182, 212, 0.35);
+  color: #ffffff;
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 ::-webkit-scrollbar-track {
   background: rgb(var(--color-bg));
@@ -68,11 +67,11 @@ body {
   border: 2px solid rgb(var(--color-bg));
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(var(--color-border) / 0.4);
+  background: rgba(6, 182, 212, 0.5);
 }
 
 :focus-visible {
-  outline: 2px solid #2fd3ae;
+  outline: 2px solid #06B6D4;
   outline-offset: 3px;
   border-radius: 4px;
 }
@@ -88,35 +87,35 @@ body {
   }
 }
 
-/* --- shared utility classes --- */
+/* --- shared luxury utility classes --- */
 .eyebrow {
   /* stylelint-disable-next-line at-rule-no-unknown */
-  @apply font-mono text-xs tracking-[0.25em] text-mint-400 uppercase flex items-center gap-2;
+  @apply font-mono text-xs tracking-[0.25em] text-cyan-400 uppercase flex items-center gap-2 font-medium;
 }
 .eyebrow::before {
   content: '';
   /* stylelint-disable-next-line at-rule-no-unknown */
-  @apply w-1.5 h-1.5 rounded-full bg-mint-400;
+  @apply w-1.5 h-1.5 rounded-full bg-cyan-400 shadow-[0_0_8px_#06b6d4];
 }
 .section-heading {
   /* stylelint-disable-next-line at-rule-no-unknown */
-  @apply font-display text-3xl sm:text-4xl md:text-5xl font-semibold text-paper-100 tracking-tight;
+  @apply font-display text-3xl sm:text-4xl md:text-5xl font-bold text-paper-100 tracking-tight;
 }
 .section-sub {
   /* stylelint-disable-next-line at-rule-no-unknown */
-  @apply text-paper-500 text-base sm:text-lg mt-4 max-w-2xl;
+  @apply text-paper-500 text-base sm:text-lg mt-4 max-w-2xl leading-relaxed;
 }
 .container-px {
   /* stylelint-disable-next-line at-rule-no-unknown */
-  @apply px-6 sm:px-10 lg:px-20;
+  @apply px-6 sm:px-10 lg:px-20 max-w-7xl mx-auto;
 }
 .card {
   /* stylelint-disable-next-line at-rule-no-unknown */
-  @apply bg-ink-800/70 border border-ink-border/40 rounded-2xl backdrop-blur-sm transition-colors duration-300;
+  @apply bg-ink-800/80 border border-slate-700/40 rounded-2xl backdrop-blur-md transition-all duration-300 shadow-lg shadow-black/20;
 }
 html.light .card {
-  border-color: rgb(var(--color-border) / 0.5);
-  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.06);
+  border-color: rgba(148, 163, 184, 0.4);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
 }
 .reveal {
   opacity: 0;
@@ -133,68 +132,51 @@ html.light .card {
   animation-play-state: paused !important;
 }
 
-/* Marquee pause on hover */
 .marquee-container:hover .animate-marquee {
   animation-play-state: paused !important;
 }
 
-/* Glow effect for cards on hover */
+/* Luxury Cyan Glow on Hover */
+.card-hover-glow {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
 .card-hover-glow:hover {
-  border-color: rgba(79, 227, 194, 0.5);
-  box-shadow: 0 0 20px rgba(79, 227, 194, 0.3), inset 0 0 15px rgba(79, 227, 194, 0.05);
+  border-color: rgba(6, 182, 212, 0.4);
+  box-shadow: 0 10px 30px -10px rgba(6, 182, 212, 0.2), inset 0 0 15px rgba(6, 182, 212, 0.03);
+  transform: translateY(-2px);
 }
 
-/* Scale effect for cards */
-.card-hover-scale:hover {
-  transform: scale(1.02);
-}
-
-/* Icon glow on hover */
 .icon-hover-glow {
-  transition: border-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
-
 .icon-hover-glow:hover {
-  border-color: rgba(79, 227, 194, 0.8) !important;
-  box-shadow: 0 0 12px rgba(79, 227, 194, 0.5), inset 0 0 12px rgba(79, 227, 194, 0.2) !important;
-  color: rgba(79, 227, 194, 1) !important;
+  border-color: rgba(6, 182, 212, 0.8) !important;
+  box-shadow: 0 0 16px rgba(6, 182, 212, 0.4) !important;
+  color: #06B6D4 !important;
+  transform: translateY(-2px);
 }
 
-/* Badge glow effect */
 .badge-hover-glow {
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.badge-hover-glow:hover {
-  box-shadow: 0 0 16px rgba(79, 227, 194, 0.5), inset 0 0 12px rgba(79, 227, 194, 0.15) !important;
-  border-color: rgba(79, 227, 194, 0.6) !important;
-}
-
-/* Image border glow on hover */
-.image-border-glow {
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.image-border-glow:hover {
-  border-color: rgba(79, 227, 194, 1) !important;
-  box-shadow: 
-    0 0 8px rgba(79, 227, 194, 0.3),
-    0 0 16px rgba(79, 227, 194, 0.4),
-    0 0 24px rgba(79, 227, 194, 0.5),
-    inset 0 0 20px rgba(79, 227, 194, 0.2) !important;
-}
-
-/* Table content hover */
-.table-content-hover:hover p:last-child {
-  color: rgba(79, 227, 194, 1);
-}
-
-/* Contact form styling */
-.form-hover-glow {
   transition: all 0.3s ease;
+}
+.badge-hover-glow:hover {
+  box-shadow: 0 0 18px rgba(6, 182, 212, 0.35) !important;
+  border-color: rgba(6, 182, 212, 0.5) !important;
+}
+
+.image-border-glow {
+  transition: all 0.4s ease;
+}
+.image-border-glow:hover {
+  border-color: rgba(6, 182, 212, 0.8) !important;
+  box-shadow: 0 0 30px rgba(6, 182, 212, 0.35), inset 0 0 20px rgba(6, 182, 212, 0.15) !important;
+}
+
+.table-content-hover:hover p:last-child {
+  color: #06B6D4;
 }
 
 .form-hover-glow:hover {
-  border-color: rgba(79, 227, 194, 0.6) !important;
-  box-shadow: 0 0 20px rgba(79, 227, 194, 0.25), inset 0 0 15px rgba(79, 227, 194, 0.05) !important;
+  border-color: rgba(6, 182, 212, 0.5) !important;
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.2) !important;
 }
