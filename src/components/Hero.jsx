@@ -27,13 +27,13 @@ export default function Hero() {
             </span>
           </h1>
 
-          <div className="mt-6 h-8 font-mono text-lg sm:text-xl">
+          <div className="mt-5 sm:mt-6 md:min-h-[3.75rem] xl:min-h-8 font-mono text-base sm:text-lg md:text-xl leading-normal">
             <span className="text-paper-500">{'<'} </span>
             <TypedRole />
             <span className="text-paper-500"> {'/>'}</span>
           </div>
 
-          <p className="section-sub">{profile.tagline}</p>
+          <p className="section-sub mt-4 sm:mt-5">{profile.tagline}</p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <a
