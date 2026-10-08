@@ -9,7 +9,7 @@ export default function About() {
     <section id="about" className="container-px py-16 sm:py-20">
       <div ref={ref} className="reveal grid lg:grid-cols-[0.85fr,1.15fr] gap-16 items-center">
         {/* photo */}
-        <div className="relative mx-auto lg:mx-0 max-w-xs">
+        <div className="relative mx-auto max-w-xs">
           {/* circular border ring with gradient effect */}
           <div className="absolute -inset-6 rounded-full border-2 border-mint-500/30 animate-[spin_20s_linear_infinite]" />
           <div className="absolute -inset-4 rounded-full border border-mint-500/20" />

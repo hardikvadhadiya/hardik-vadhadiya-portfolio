@@ -8,7 +8,7 @@ import useReveal from '../hooks/useReveal'
  * Form submission automatically sends to: hardikvadhadiya54@gmail.com
  */
 
-export default function Contact() {
+export default function Contact({ onOpenCompose }) {
   const ref = useReveal()
   const [form, setForm] = useState({ name: '', email: '', message: '' })
   const [submitted, setSubmitted] = useState(false)
@@ -22,7 +22,7 @@ export default function Contact() {
 
   try {
     const response = await fetch(
-      'https://formsubmit.co/ajax/hardikvadhadiya54@gmail.com',
+      `https://formsubmit.co/ajax/${profile.email}`,
       {
         method: 'POST',
         headers: {
@@ -79,9 +79,10 @@ export default function Contact() {
                 {profile.location}
               </span>
             </a>
-            <a
-              href={`mailto:${profile.email}`}
-              className="flex items-center gap-4 group"
+            <button
+              type="button"
+              onClick={onOpenCompose}
+              className="flex items-center gap-4 group cursor-pointer text-left"
             >
               <span className="w-11 h-11 rounded-full border border-ink-border flex items-center justify-center text-mint-400 group-hover:border-mint-500/50 transition-colors">
                 <MailIcon />
@@ -89,7 +90,7 @@ export default function Contact() {
               <span className="text-paper-300 group-hover:text-mint-400 transition-colors">
                 {profile.email}
               </span>
-            </a>
+            </button>
             <a
               href={`tel:${profile.phone.replace(/[^+\d]/g, '')}`}
               className="flex items-center gap-4 group"

@@ -3,7 +3,7 @@ import { GithubIcon, LinkedinIcon, MailIcon } from './Icons'
 
 const ICONS = { github: GithubIcon, linkedin: LinkedinIcon, mail: MailIcon }
 
-export default function Footer() {
+export default function Footer({ onOpenCompose }) {
   const year = new Date().getFullYear()
 
   return (
@@ -38,6 +38,19 @@ export default function Footer() {
         <div className="flex items-center justify-center sm:justify-end gap-4">
           {socials.map(({ label, href, icon }) => {
             const Icon = ICONS[icon]
+            if (icon === 'mail') {
+              return (
+                <button
+                  key={label}
+                  type="button"
+                  onClick={onOpenCompose}
+                  aria-label={label}
+                  className="w-10 h-10 rounded-full border border-ink-border flex items-center justify-center text-paper-300 hover:text-mint-400 hover:border-mint-400 transition-all duration-300 cursor-pointer"
+                >
+                  <Icon />
+                </button>
+              )
+            }
             return (
               <a
                 key={label}

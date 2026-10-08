@@ -4,7 +4,7 @@ import TypedRole from './TypedRole'
 
 const ICONS = { github: GithubIcon, linkedin: LinkedinIcon, mail: MailIcon }
 
-export default function Hero() {
+export default function Hero({ onOpenCompose }) {
   return (
     <section
       id="home"
@@ -44,7 +44,9 @@ export default function Hero() {
             </a>
             <a
               href={profile.resumeUrl}
-              download
+              download="Hardik-Vadhadiya-Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-ink-border/14 text-paper-100 px-6 py-3 text-sm hover:border-mint-500/50 hover:text-mint-400 transition-colors"
             >
               Download CV <DownloadIcon width={16} height={16} />
@@ -72,6 +74,19 @@ export default function Hero() {
             <div className="flex items-center gap-3">
               {socials.map(({ label, href, icon }) => {
                 const Icon = ICONS[icon]
+                if (icon === 'mail') {
+                  return (
+                    <button
+                      key={label}
+                      type="button"
+                      onClick={onOpenCompose}
+                      aria-label={label}
+                      className="w-10 h-10 rounded-full border border-ink-border/14 flex items-center justify-center text-paper-300 hover:text-mint-400 transition-all duration-300 icon-hover-glow cursor-pointer"
+                    >
+                      <Icon />
+                    </button>
+                  )
+                }
                 return (
                   <a
                     key={label}
